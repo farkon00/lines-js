@@ -1,0 +1,43 @@
+body {
+    background-color: #181818;
+    color: #aaa;
+    font-size: min(5vw, 5vh);
+}
+
+input[type="number"] {
+    background-color: #696969;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: min(5vw, 5vh);
+}
+
+input[type="number"]::placeholder {
+    color: #aaa;
+    opacity: 1; /* Firefox */
+}
+
+input[type="number"]::-ms-input-placeholder {
+    color: #aaa;
+}
+
+input[type="number"]:-ms-input-placeholder {
+    color: #aaa;
+}
+
+#page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    background-color: #303030;
+    display: block;
+    margin-top: 3vh;
+    padding: 5vh 5vw;
+    border-radius: 20px;
+}
+
+.formula-container {
+    padding: 1vh 0;
+}
