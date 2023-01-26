@@ -1,7 +1,8 @@
 body {
     background-color: #181818;
     color: #aaa;
-    font-size: min(5vw, 5vh);
+    font-size: min(4.5vw, 4.5vh);
+    font-family: 'Roboto Mono', monospace;
 }
 
 input[type="number"] {
