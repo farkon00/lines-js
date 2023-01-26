@@ -32,7 +32,9 @@ input[type="number"]:-ms-input-placeholder {
 
 .content-container {
     background-color: #303030;
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 3vh;
     padding: 5vh 5vw;
     border-radius: 20px;
